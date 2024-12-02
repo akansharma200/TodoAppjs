@@ -46,9 +46,11 @@
     gap: 10px;
 }
 
-.card{
-  min-width: 340px;
+.task{
+  min-width: 300px;
   width: 340px;
+  height: 30vh;
+  border: 2px solid green;
   border-radius: 10px;
   background-color: #fff;
   padding: 15px 20px;
@@ -79,7 +81,6 @@
 
 .card-content{
     margin: 10px 0;
-    
 }
 
 .card-content h3{

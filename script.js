@@ -54,7 +54,7 @@ function createCard() {
 
    data.map(function (item,x) {
     return (cardContainer.innerHTML += `
-  <div class="card" id="${x}">
+  <div class="task" id="${x}">
     <div class="top-content">
         <p>${item.cate}</p>
     
