@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containers{
+    width: 90vw;
+    height: auto;
+    border-radius: 20px;
+    background-color: cornsilk;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+
+.top-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category{
+    width: 100%;
+    border-bottom:  1px solid gray;
+
+}
+
+.ca-list ul {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.ca-list ul li {
+    list-style: none;
+}
+
+.cards-container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+  min-width: 340px;
+  width: 340px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-category{
+    background-color: maroon;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.card-category p {
+    margin: 0;
+}
+
+.card-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.card-content{
+    margin: 10px 0;
+    
+}
+
+.card-content h3{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-content p {
+    font-size: 14px;
+}
+
+.date {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.date p{
+    font-size: 12px;
+    text-align: right;
+}
+
+.catergory{
+    width: 100%;
+}
+
+.modal-body input{
+    width: 100%;
+    padding: 4px 8px;
+}
+
+.modal-body textarea{
+    width: 100%;
+    padding: 8px;
+}
+
+.modal-body p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#taskWarn {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+  .cards-container {
+    height: 70vh;
+    overflow-y: auto;
+  }
+  .cards-container::-webkit-scrollbar {
+    display: none;
+  }
+}
