@@ -57,8 +57,6 @@ function createCard() {
   <div class="task" id="${x}">
     <div class="top-content">
         <p>${item.cate}</p>
-    
-
       <div class="card-icons">
         <i class="fa-regular fa-pen-to-square" onclick="edit(this)" data-toggle="modal" data-target="form"></i>
         <i class="fa-solid fa-trash-can" onclick="del(this)" id='del' ></i>
